@@ -1,9 +1,9 @@
-﻿using Ekmob.Technical.Common.Utilities.Response;
-using Ekmob.Technical.Customer.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Ekmob.Technical.Common.Utilities.Response;
+using Ekmob.Technical.Services.Entities;
 
-namespace Ekmob.Technical.Customer.Services.Interface
+namespace Ekmob.Technical.Services.Services.Interface
 {
     public interface IDepartmentService
     {

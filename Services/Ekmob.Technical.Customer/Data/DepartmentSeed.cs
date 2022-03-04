@@ -1,11 +1,8 @@
-﻿using Ekmob.Technical.Customer.Entities;
+﻿using System.Collections.Generic;
+using Ekmob.Technical.Services.Entities;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Ekmob.Technical.Customer.Data
+namespace Ekmob.Technical.Services.Data
 {
     public class DepartmentSeed
     {

@@ -1,13 +1,10 @@
-﻿using Ekmob.Technical.Customer.Data.Interface;
-using Ekmob.Technical.Customer.Entities;
-using Ekmob.Technical.Customer.Settings;
+﻿using Ekmob.Technical.Customer.Data;
+using Ekmob.Technical.Customer.Data.Interface;
+using Ekmob.Technical.Services.Entities;
+using Ekmob.Technical.Services.Settings;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Ekmob.Technical.Customer.Data.Concrete
+namespace Ekmob.Technical.Services.Data.Concrete
 {
     public class BaseContext : IBaseContext
     {

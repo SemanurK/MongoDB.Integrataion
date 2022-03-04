@@ -1,4 +1,4 @@
-﻿using Ekmob.Technical.Customer.Entities;
+﻿using Ekmob.Technical.Services.Entities;
 using MongoDB.Driver;
 
 namespace Ekmob.Technical.Customer.Data.Interface

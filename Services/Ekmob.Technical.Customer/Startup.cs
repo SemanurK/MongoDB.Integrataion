@@ -1,8 +1,4 @@
-using Ekmob.Technical.Customer.Data.Concrete;
 using Ekmob.Technical.Customer.Data.Interface;
-using Ekmob.Technical.Customer.Services.Concrete;
-using Ekmob.Technical.Customer.Services.Interface;
-using Ekmob.Technical.Customer.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +12,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Ekmob.Technical.Services.Data.Concrete;
+using Ekmob.Technical.Services.Services.Concrete;
+using Ekmob.Technical.Services.Services.Interface;
+using Ekmob.Technical.Services.Settings;
 
 namespace Ekmob.Technical.Customer
 {

@@ -1,5 +1,4 @@
 using Ekmob.Technical.Customer;
-using Ekmob.Technical.Customer.Entities;
 using Ekmob.Technical.Test.Base;
 using Ekmob.Technical.Test.Factory;
 using System;

@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7EC2AFD4-5B5C-4238-8D7B-21618C886B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ekmob.Technical.Customer", "Services\Ekmob.Technical.Customer\Ekmob.Technical.Customer.csproj", "{47A4FEAC-DDB2-41A7-BFF7-428F1277ED7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekmob.Technical.Services", "Services\Ekmob.Technical.Customer\Ekmob.Technical.Services.csproj", "{47A4FEAC-DDB2-41A7-BFF7-428F1277ED7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ekmob.Technical.Common", "Common\Ekmob.Technical.Common\Ekmob.Technical.Common.csproj", "{81A358A1-5092-4146-AFD1-F8E83DF4B7F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekmob.Technical.Common", "Common\Ekmob.Technical.Common\Ekmob.Technical.Common.csproj", "{81A358A1-5092-4146-AFD1-F8E83DF4B7F8}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E45809B1-CBBD-488A-A401-E8F1B06F5EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ekmob.Technical.Test", "Test\Ekmob.Technical.Test\Ekmob.Technical.Test.csproj", "{97268906-325B-4637-A83E-6CA1AF5D6655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekmob.Technical.Test", "Test\Ekmob.Technical.Test\Ekmob.Technical.Test.csproj", "{97268906-325B-4637-A83E-6CA1AF5D6655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

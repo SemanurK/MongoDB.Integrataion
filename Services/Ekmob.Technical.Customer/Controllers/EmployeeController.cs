@@ -1,12 +1,12 @@
-﻿using Ekmob.Technical.Customer.Entities;
-using Ekmob.Technical.Customer.Services.Interface;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
+using Ekmob.Technical.Services.Entities;
+using Ekmob.Technical.Services.Services.Interface;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
-namespace Ekmob.Technical.Customer.Controllers
+namespace Ekmob.Technical.Services.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

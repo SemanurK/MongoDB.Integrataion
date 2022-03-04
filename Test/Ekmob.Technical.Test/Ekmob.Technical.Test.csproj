@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Ekmob.Technical.Common\Ekmob.Technical.Common.csproj" />
-    <ProjectReference Include="..\..\Services\Ekmob.Technical.Customer\Ekmob.Technical.Customer.csproj" />
+    <ProjectReference Include="..\..\Services\Ekmob.Technical.Customer\Ekmob.Technical.Services.csproj" />
   </ItemGroup>
 
 </Project>

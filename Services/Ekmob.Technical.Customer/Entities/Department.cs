@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Ekmob.Technical.Customer.Entities
+namespace Ekmob.Technical.Services.Entities
 {
     public class Department
     {

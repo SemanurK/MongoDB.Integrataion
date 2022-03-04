@@ -1,13 +1,13 @@
-﻿using Ekmob.Technical.Common.Utilities.Response;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Ekmob.Technical.Common.Utilities.Response;
 using Ekmob.Technical.Customer.Data.Interface;
-using Ekmob.Technical.Customer.Entities;
-using Ekmob.Technical.Customer.Services.Interface;
+using Ekmob.Technical.Services.Entities;
+using Ekmob.Technical.Services.Services.Interface;
 using Microsoft.AspNetCore.Http;
 using MongoDB.Driver;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace Ekmob.Technical.Customer.Services.Concrete
+namespace Ekmob.Technical.Services.Services.Concrete
 {
     public class DepartmentService : IDepartmentService
     {
