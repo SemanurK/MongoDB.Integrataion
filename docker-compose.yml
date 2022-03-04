@@ -1,0 +1,12 @@
+version: '3.4'
+
+
+services:
+  EkmobDb:
+    image : mongo
+
+  ekmob.technical.customer:
+    image: ${DOCKER_REGISTRY-}ekmobtech
+    build:
+      context: .
+      dockerfile: Services/Ekmob.Technical.Customer/Dockerfile
